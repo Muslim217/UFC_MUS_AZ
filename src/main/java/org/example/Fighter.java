@@ -1,6 +1,6 @@
 package org.example;
 
-public class Fighter {
+public class Fighter implements Comparable<Fighter>{
 
     private String name;
     private String nickname;
@@ -106,9 +106,8 @@ public class Fighter {
         return wrestling_protection;
     }
 
-
-    public int compareTo(Object o) {
-        Fighter f = (Fighter) o;
+    @Override
+    public int compareTo(Fighter f) {
         return f.rating - this.rating;
     }
 

@@ -16,16 +16,16 @@ public class Rating {
     }
 
     public void danaWeight(List<Fighter> fighterslist, Category category) {
-        List<Fighter> NYweight = new ArrayList<>();
+        List<Fighter> selectedWeight = new ArrayList<>();
         for (Fighter f : fighterslist) {
             if (f.getWeight_category().equals(category)) {
-                NYweight.add(f);
+                selectedWeight.add(f);
             }
 
         }
         System.out.println();
         System.out.println(category);
-        viewRating(NYweight);
+        viewRating(selectedWeight);
 
     }
 
