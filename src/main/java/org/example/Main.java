@@ -24,8 +24,7 @@ public class Main {
         Rating ratingP4P = new Rating();
         ratingP4P.danaLove(fighters);
         ratingP4P.danaWeight(fighters, Category.Welterweight);
-        Gson gson = new Gson();
-
+        System.out.println("С библиотекой ");
 
     }
 }
