@@ -25,6 +25,7 @@ public class Main {
         ratingP4P.danaLove(fighters);
         ratingP4P.danaWeight(fighters, Category.Welterweight);
         System.out.println("С библиотекой ");
+        System.out.println("ratingP4P = " + ratingP4P);
 
     }
 }
